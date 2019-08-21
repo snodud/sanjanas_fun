@@ -16,6 +16,7 @@ res = attr('reset')
 ''' This function is used to populate BARCODE, DESCRIPTION, POS-X, POS-Y, EXTERNALAISLEID in the CSV file. 
     It will iterate based on the information of the first var section'''
 def bin_iteration():
+    print('hello world')
     global total_length
     global uniq_counter
     print('')
